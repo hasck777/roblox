@@ -5749,7 +5749,7 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
     local title
     if isfile(folderName .. "/theme.json") then
         local userThemeData = httpService:JSONDecode(readfile(folderName .. "/theme.json"))
-        title = (userThemeData.Title == "Wapus" and "Wapus.Shop") or userThemeData.Title
+        title = (userThemeData.Title == "Wapus" and "Mkz.Shop") or userThemeData.Title
         wapus.theme = {
             accent = Color3.fromRGB(table.unpack(userThemeData["Accent Color"])),
             text = Color3.fromRGB(table.unpack(userThemeData["Text Color"])),
